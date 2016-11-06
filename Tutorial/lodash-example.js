@@ -5,12 +5,14 @@ import {
   View
 } from 'react-native';
 
+import _ from 'lodash';
+
 export default class LodashExample extends Component {
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Hello, world :)
+          Your lucky number is { _.random(100) }!
         </Text>
       </View>
     );
