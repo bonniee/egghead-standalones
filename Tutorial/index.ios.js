@@ -6,6 +6,7 @@ import {
 // Pick which lesson you want
 import DebuggingTutorial from './debugging';
 import PlatformSpecific from './PlatformSpecific';
+import LodashExample from './lodash-example';
 
 AppRegistry.registerComponent(
-  'Tutorial', () => PlatformSpecific);
+  'Tutorial', () => LodashExample);
